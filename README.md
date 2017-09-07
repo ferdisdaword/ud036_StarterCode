@@ -46,7 +46,7 @@ movies = [my_movie_name]
 ```
 ### To store more movie related information
 This can be done by updating the movie class within the `fresh_tomatoes.py` file using TMDB API _tmdbsimple_ Movie class. 
-**Some examples** 0f the current information being stored per movie:
+**Some examples** of the current information being stored per movie:
 ```
 content += movie_tile_content.format(
     movie_title=movie.title,
